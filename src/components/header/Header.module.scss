@@ -1,0 +1,26 @@
+.headerText{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.hotelcon{
+    font-size: 25px;
+}
+
+.reg{
+    border:none;
+    font-size: 20px;
+    color:gray;
+    &:hover{
+        background-color: #80808021;
+        color: gray;
+    }
+}
+.log{
+    border:none;
+    font-size: 20px;
+    color:gray;
+    &:hover{
+        background-color: #80808021;
+        color:gray;
+    }
+}

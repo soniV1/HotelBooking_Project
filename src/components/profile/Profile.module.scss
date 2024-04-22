@@ -1,0 +1,41 @@
+ .card{
+    border: 1px solid #8080801c;
+    width: 100%;
+    position: relative;
+    background: #8080801c;
+    border-radius: 13px;
+    
+
+    .imgwrapper {
+        position: absolute;
+        left: 34%;
+        top: -64px;
+        border: 4px solid #80808047;
+        border-radius: 50%;
+    }
+    .content{
+        margin-top: 120px;
+        text-align: center;
+    }
+
+    .avatar {
+        vertical-align: middle;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    
+        // position: absolute;
+        // left:40%;
+      }
+      .iconparent{
+        border-top:1px solid #8080801f;
+        display: flex;
+        justify-content: center;
+
+        .icon{
+            margin: 20px;
+            font-size: 20px;
+        }
+      }
+ }
+    

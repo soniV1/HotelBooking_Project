@@ -1,0 +1,37 @@
+.footercont{
+    margin-top: 50px;
+    background-color:#f8f9fa;
+
+    .footerBlock {
+        padding: 10px;
+        padding-top: 20px;
+        text-align: left;
+        
+        h3{
+            font-size: 18px;
+        }
+
+        .list {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            a {
+                font-size: 14px;
+                text-decoration: none;
+                color: black;
+
+                &:hover{
+                    text-decoration: underline;
+                    color: blue;
+                }
+
+                &.icon{
+                    font-size: 18px;
+                    margin-left: 5px;
+                }
+            }
+            
+        }
+    }
+}
+

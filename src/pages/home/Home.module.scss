@@ -1,0 +1,83 @@
+
+.cont{
+    margin-top: 30px;
+    .backgroudimg{
+       height: 500px !important;
+       opacity: 0.7;
+     
+    }
+    .shareRoom{
+        margin-top: 46%;
+        margin-left: 20%;
+        height: fit-content;
+        font-size: 30px;
+        border: none;
+        border-radius: 15px;
+        padding: 28px;
+
+        &:hover {
+            background-color: #b0bac2;
+        }
+
+        @media (max-width: 576px) {
+            margin-top: 10%;
+        }
+    }
+    .rentRoom{
+        margin-top: 46%;
+        margin-left: 20%;
+        height: fit-content;
+        font-size: 30px;
+        border: none;
+        border-radius: 15px;
+        padding: 28px;
+        &:hover {
+            background-color: #b0bac2;
+        }
+        @media (max-width: 576px) {
+            margin-top: 10%;
+        }
+    }
+    .link {
+        list-style: none;
+        margin-top: 39%;
+        margin-left: 20%;
+        background: white;
+        padding: 20px;
+        width: 200px;
+        border-radius: 18px;
+
+        @media (max-width: 576px) {
+            margin-top: 10%;
+        }
+
+        li {
+            padding: 0;
+            margin: 0;
+        }
+        a {
+            text-decoration: none;
+            font-size: 25px;
+            color: #1c1a1a;
+            &:hover{
+                color: #46769c;
+                text-decoration: underline;
+            }
+        }
+    }
+
+}
+
+.ro2{
+    margin-top: 50px;
+    h3 {
+        margin: 30px;
+        text-align: center;
+
+    }
+}
+.ro3{
+    margin-top: 50px;
+    height: 200px; /* Set a fixed height for the row */
+  overflow-y: auto; /* Enable vertical scrolling */
+}

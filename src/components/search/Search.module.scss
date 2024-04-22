@@ -1,0 +1,82 @@
+.searchContainer {
+    
+
+    
+
+.label{
+    font-size: 14px;
+font-weight: 500;
+line-height: 1.57;
+letter-spacing: 1px;
+text-transform: uppercase;
+text-align: center;
+margin-bottom: 10px;
+display: block;
+color: #7a7a7a;
+}
+.picker {
+    background: #f1f1f2;
+    height: 50px;
+    border-radius: 10px 0 0 10px ;
+    border-right: 1px solid #0000000f;
+}
+.rightPicker {
+    background: #f1f1f2;
+    height: 50px;
+    border-right: 1px solid #0000000f;
+    
+    input {
+        background: transparent;
+        border: none;
+        &:focus,:active {
+            outline: none;
+        }
+    }
+}
+.start{
+    font-size: 14px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    background: transparent;
+    margin-top: 15px;
+
+    &:focus,:active {
+        outline: none;
+    }
+
+}
+.end{
+    font-size: 14px;
+    border: none;
+    width: 100%;
+    background: transparent;
+    margin-top: 15px;
+    &:focus,:active {
+        outline: none;
+    }
+}
+.buttonLabel{
+    font-size: 14px;
+font-weight: 500;
+line-height: 1.57;
+letter-spacing: 1px;
+text-transform: uppercase;
+text-align: center;
+margin-bottom: 10px;
+display: block;
+    color: transparent;
+}
+.buttonPicker {
+    background: #f1f1f2;
+    height: 50px;
+    border-radius: 0 10px 10px 0 ;
+
+    .button{
+        border: none;
+        background: transparent;
+    }
+    
+}
+
+}
